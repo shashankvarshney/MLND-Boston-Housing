@@ -104,6 +104,7 @@ def ModelComplexity(X, y):
     pl.xlabel('Maximum Depth')
     pl.ylabel('Score')
     pl.ylim([-0.05,1.05])
+    pl.savefig("model_complexity.png")
     pl.show()
 
 
